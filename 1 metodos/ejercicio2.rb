@@ -2,14 +2,11 @@
 # Se pide identificar el error y corregirlo.
 
 def random
-  result = [true, false].sample
-  puts result
+  [true, false].sample
 end
 
-if random == true
+if random
   puts 'sí'
-elsif random == false
-  puts 'no'
 else
-  puts 'error'
+  puts 'no'
 end
