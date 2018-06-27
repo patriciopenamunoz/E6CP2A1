@@ -7,3 +7,9 @@
 
 cadena = 'Hola Mundo!'
 caracter = 'o'
+
+def existe_caracter?(cadena, caracter)
+  cadena.include?(caracter)
+end
+
+puts existe_caracter?(cadena, caracter)
