@@ -4,10 +4,9 @@
 # 3. Crear un metodo que devuelva un arreglo con la cantidad de caracteres
 # que tiene cada nombre.
 
-companeros = [
-  'Tomás', 'Susana', 'Patricio', 'Juan', 'Jorge', 'Daniela', 'Felipe',
-  'Sebastian', 'Vladimir', 'Felipe', 'Gabriela', 'Leudis', 'Marcelo',
-  'Daniela', 'Leonardo', 'Damian', 'Juan', 'Maximiliano', 'Frank'
+companeros = %w[
+  Tomás Susana Patricio Juan Jorge Daniela Felipe Sebastian Vladimir Felipe
+  Gabriela Leudis Marcelo Daniela Leonardo Damian Juan Maximiliano Frank
 ]
 # 1
 companeros.each { |companero| puts companero if companero.length > 5 }
