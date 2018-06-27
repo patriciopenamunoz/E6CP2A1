@@ -11,7 +11,7 @@ list = [products, prices]
 html = ''
 list[0].length.times do |i|
   html += "<div class='product'>"
-  html += "<p> #{ list[0][i] } </p><p> #{ list[1][i] } </p>"
+  html += "<p> #{list[0][i]} </p><p> #{list[1][i]} </p>"
   html += "</div>\n"
 end
 
